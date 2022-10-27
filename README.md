@@ -2,7 +2,7 @@
 
 This repository contains an unofficial GigaDevice GD32F10x CMSIS Pack for [GNU MCU Eclipse][packs-manager].
 
-Based on [Milandr MCU 1986x CMSIS Pack Repository][https://github.com/in4lio/mdr1986x-pack-repo]
+Based on [Milandr MCU 1986x CMSIS Pack Repository](https://github.com/in4lio/mdr1986x-pack-repo)
 
 ### How to install the package (Eclipse)
 
