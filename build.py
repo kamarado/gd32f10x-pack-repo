@@ -14,8 +14,8 @@ from xml.dom import minidom
 
 SOURCE_DIR = './source/'
 BUILD_DIR  = './build/'
-PDSC_FILE  = './GigaDevice.GD32F10x.pdsc'
-PACK_TEMPL = './GigaDevice.GD32F10x.%s.pack'
+PDSC_FILE  = './GigaDevice.GD32F10x_DFP.pdsc'
+PACK_TEMPL = './GigaDevice.GD32F10x_DFP.%s.pack'
 IDX_FILE   = './index.pidx'
 
 copylist = (
@@ -105,7 +105,7 @@ print('Write version to', IDX_FILE)
 idx = minidom.parse( IDX_FILE )
 idx.getElementsByTagName( 'pdsc' )[ 0 ].attributes[ 'version' ].value = ver
 print(idx.toxml())
-idx.writexml( open( IDX_FILE, "wb" ))
+idx.writexml( open( IDX_FILE, "w" ))
 
 open( os.path.join( BUILD_DIR, '.gitignore' ), 'w' ).write( '*' )
 print('Done')
