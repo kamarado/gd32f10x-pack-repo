@@ -13,7 +13,7 @@ Eclipse Menu → Window → Preferences → C/C++ → Packages → Repositories 
 
 Type       CMSIS Pack
 Name       GigaDevice GD32F10x
-URL        https://github.com/kamarado/gd32f10x-pack-repo/raw/master/index.pidx
+URL        https://github.com/kamarado/gd32f10x-pack-repo/raw/main/index.pidx
 ```
 With old versions of Packs Manager, you should use [_"index.idx"_][index.idx] file.
 
@@ -48,8 +48,7 @@ git submodule update --init --recursive
 
 ```
 cd gd32f10x-pack-repo
-git pull origin master
-git submodule foreach git pull origin master
+git pull origin main
 ```
 
 - Run the build script with Python 3:
@@ -64,6 +63,6 @@ python build.py
 [packs-manager-persp]:   https://gnu-mcu-eclipse.github.io/plugins/packs-manager/#the-packs-perspective
 [packs-manager-install]: https://gnu-mcu-eclipse.github.io/plugins/packs-manager/#pack-install
 [debug-registers]:       https://gnu-mcu-eclipse.github.io/debug/peripheral-registers/
-[pack]:                  https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/master/GigaDevice.GD32F10x_DFP.2.0.2.pack
-[index.pidx]:            https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/master/index.pidx
-[index.idx]:             https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/master/index.idx
+[pack]:                  https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/main/GigaDevice.GD32F10x_DFP.2.0.2.pack
+[index.pidx]:            https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/main/index.pidx
+[index.idx]:             https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/main/index.idx
