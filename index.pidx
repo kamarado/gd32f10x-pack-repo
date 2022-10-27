@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><index schemaVersion="1.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PackIndex.xsd">
+<vendor>GigaDevice</vendor>
+<url>https://www.gigadevice.com/</url>
+<timestamp>2022-10-27T00:00:00.0000000+00:00</timestamp>
+<pindex>
+<pdsc name="GD32F10x" url="https://raw.githubusercontent.com/kamarado/gd32f10x-pack-repo/master/" vendor="GigaDevice" version="2.0.2"/>
+</pindex>
+</index>
