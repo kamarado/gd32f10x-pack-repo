@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><index schemaVersion="1.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PackIndex.xsd">
+<?xml version="1.0" ?><index xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1.0" xs:noNamespaceSchemaLocation="PackIndex.xsd">
 <vendor>GigaDevice</vendor>
 <url>https://www.gigadevice.com/</url>
 <timestamp>2022-10-27T00:00:00.0000000+00:00</timestamp>
